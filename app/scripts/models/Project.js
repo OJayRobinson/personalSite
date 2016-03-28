@@ -7,20 +7,11 @@ PersonalSite.Models = PersonalSite.Models || {};
 
     PersonalSite.Models.Project = Backbone.Model.extend({
 
-        url: '',
-
-        initialize: function() {
-        },
-
         defaults: {
+            id:             "",     // id and name used on image
+            previewImage:   null,   // image used to show featured project
+            desc:           "",     // description of project
         },
-
-        validate: function(attrs, options) {
-        },
-
-        parse: function(response, options)  {
-            return response;
-        }
     });
 
 })();

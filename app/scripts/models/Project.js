@@ -10,6 +10,7 @@ PersonalSite.Models = PersonalSite.Models || {};
         defaults: {
             id:             "",     // id and name used on image
             previewImage:   null,   // image used to show featured project
+            title:          "",     // title of project
             desc:           "",     // description of project
         },
     });

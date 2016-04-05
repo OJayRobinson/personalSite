@@ -9,7 +9,7 @@ PersonalSite.Models = PersonalSite.Models || {};
 
         defaults: {
             icon:       null, // image used in menu and heading
-            name:       "",   // label used in menu and heading
+            title:      "",   // label used in menu and heading
             projects:   [],   // id's of project in Projects collection, example of skill being applied
             
             // OJR may or may not use
